@@ -20,6 +20,9 @@ Roadmap and sessions information of India AI Initiatives
 
 Sat, 08 Feb 25
 
+[Recording](#https://drive.google.com/file/d/1om9RkGsHi643uYcMmlXqEB24KO7CkFSj/view)
+
+
 ### I1 - Hardware Optimization Discussion
 
 - Two main optimization paths discussed:
