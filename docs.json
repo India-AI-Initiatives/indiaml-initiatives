@@ -9,8 +9,8 @@
   },
   "favicon": "/favicon.svg",
   "logo": {
-    "light": "India AI Initiatives",
-    "dark": "India AI Initiatives",
+    "light": "/logo/dark.svg",
+    "dark": "/logo/light.svg",
     "href": "https://indiaml.com"
   },
   "navigation": {
