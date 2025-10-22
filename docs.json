@@ -25,6 +25,76 @@
         ]
       },
       {
+        "tab": "Models",
+        "groups": [
+          {
+            "group": "LLMs",
+            "pages": ["models/llms"]
+          },
+          {
+            "group": "Foundational",
+            "pages": ["models/foundational-ai"]
+          },
+          {
+            "group": "Infrastructure",
+            "pages": ["models/infrastructure"]
+          },
+          {
+            "group": "Voice/Video",
+            "pages": ["models/voice-video-ai"]
+          },
+          {
+            "group": "Gaming",
+            "pages": ["models/gaming"]
+          },
+          {
+            "group": "SpaceTech",
+            "pages": ["models/space"]
+          },
+          {
+            "group": "Robotics",
+            "pages": ["models/robotics"]
+          },
+          {
+            "group": "Enterprises AI",
+            "pages": ["models/enterprises-ai"]
+          }
+        ]
+      },
+      {
+        "tab": "Papers",
+        "groups": [
+          {
+            "group": "LLMs",
+            "pages": ["papers/llms"]
+          },
+          {
+            "group": "Foundational AI",
+            "pages": ["papers/foundational-ai"]
+          },
+          {
+            "group": "Voice/Video AI",
+            "pages": ["papers/voice-video-ai"]
+          },
+          {
+            "group": "Gaming",
+            "pages": ["papers/gaming"]
+          },
+          {
+            "group": "SpaceTech",
+            "pages": ["papers/space"]
+          },
+          {
+            "group": "Robotics",
+            "pages": ["papers/robotics"]
+          },
+          {
+            "group": "Enterprises AI",
+            "pages": ["papers/enterprises-ai"]
+          }
+        ]
+      },
+      {
         "tab": "Startups",
         "groups": [
           {
@@ -36,8 +106,16 @@
             "pages": ["startups/foundational-ai"]
           },
           {
+            "group": "Infrastructure",
+            "pages": ["startups/infrastructure"]
+          },
+          {
             "group": "Voice/Video AI",
             "pages": ["startups/voice-video-ai"]
+          },
+          {
+            "group": "Gaming",
+            "pages": ["startups/gaming"]
           },
           {
             "group": "SpaceTech",
@@ -65,6 +143,14 @@
             "pages": ["ideas/foundational-ai"]
           },
           {
+            "group": "Infrastructure",
+            "pages": ["ideas/infrastructure"]
+          },
+          {
+            "group": "Gaming",
+            "pages": ["ideas/gaming"]
+          },
+          {
             "group": "Voice/Video AI",
             "pages": ["ideas/voice-video-ai"]
           },
@@ -82,35 +168,7 @@
           }
         ]
       },
-      {
-        "tab": "Papers",
-        "groups": [
-          {
-            "group": "LLMs",
-            "pages": ["papers/llms"]
-          },
-          {
-            "group": "Foundational AI",
-            "pages": ["papers/foundational-ai"]
-          },
-          {
-            "group": "Voice/Video AI",
-            "pages": ["papers/voice-video-ai"]
-          },
-          {
-            "group": "SpaceTech",
-            "pages": ["papers/space"]
-          },
-          {
-            "group": "Robotics",
-            "pages": ["papers/robotics"]
-          },
-          {
-            "group": "Enterprises AI",
-            "pages": ["papers/enterprises-ai"]
-          }
-        ]
-      },
+      
       {
         "tab": "Readings",
         "groups": [
@@ -146,6 +204,10 @@
           {
             "group": "Startups",
             "pages": ["podcasts/startups"]
+          },
+          {
+            "group": "Gaming",
+            "pages": ["podcasts/gaming"]
           }
         ]
       },
@@ -195,6 +257,10 @@
             "pages": ["jobs/foundational"]
           },
           {
+            "group": "Infrastructure",
+            "pages": ["jobs/infrastructure"]
+          },
+          {
             "group": "SpaceTech",
             "pages": ["jobs/space"]
           },
@@ -205,6 +271,10 @@
           {
             "group": "Voice/Video AI",
             "pages": ["jobs/voice-video-ai"]
+          },
+          {
+            "group": "Gaming",
+            "pages": ["jobs/gaming"]
           },
           {
             "group": "Enterprises AI",
