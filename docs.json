@@ -36,16 +36,20 @@
             "pages": ["startups/foundational"]
           },
           {
-            "group": "Voice AI",
-            "pages": ["startups/voice-ai"]
+            "group": "Voice/Video AI",
+            "pages": ["startups/voice-video-ai"]
           },
           {
-            "group": "Video AI",
-            "pages": ["startups/video-ai"]
+            "group": "SpaceTech",
+            "pages": ["startups/space"]
           },
           {
-            "group": "Enterprises",
-            "pages": ["startups/enterprises"]
+            "group": "Robotics",
+            "pages": ["startups/robotics"]
+          },
+          {
+            "group": "Enterprises AI",
+            "pages": ["startups/enterprises-ai"]
           }
         ]
       },
@@ -61,16 +65,20 @@
             "pages": ["papers/foundational"]
           },
           {
-            "group": "Voice AI",
-            "pages": ["papers/voice-ai"]
+            "group": "Voice/Video AI",
+            "pages": ["papers/voice-video-ai"]
           },
           {
-            "group": "Video AI",
-            "pages": ["papers/video-ai"]
+            "group": "SpaceTech",
+            "pages": ["papers/space"]
           },
           {
-            "group": "Enterprises",
-            "pages": ["papers/enterprises"]
+            "group": "Robotics",
+            "pages": ["papers/robotics"]
+          },
+          {
+            "group": "Enterprises AI",
+            "pages": ["papers/enterprises-ai"]
           }
         ]
       },
@@ -109,6 +117,69 @@
           {
             "group": "Startups",
             "pages": ["podcasts/startups"]
+          }
+        ]
+      },
+      {
+        "tab": "Grants",
+        "groups": [
+          {
+            "group": "Government",
+            "pages": ["grants/govt"]
+          },
+          {
+            "group": "Non-Profit",
+            "pages": ["grants/non-profit"]
+          },
+          {
+            "group": "Global",
+            "pages": ["grants/global"]
+          }
+        ]
+      },
+      {
+        "tab": "Investors",
+        "groups": [
+          {
+            "group": "Angels",
+            "pages": ["investors/angels"]
+          },
+          {
+            "group": "VC",
+            "pages": ["investors/vc"]
+          },
+          {
+            "group": "Global",
+            "pages": ["investors/global"]
+          }
+        ]
+      },
+      {
+        "tab": "Jobs",
+        "groups": [
+          {
+            "group": "DeepTech",
+            "pages": ["jobs/deeptech"]
+          },
+          {
+            "group": "Foundational",
+            "pages": ["jobs/foundational"]
+          },
+          {
+            "group": "SpaceTech",
+            "pages": ["jobs/space"]
+          },
+          {
+            "group": "Robotics",
+            "pages": ["jobs/robotics"]
+          },
+          {
+            "group": "Voice/Video AI",
+            "pages": ["jobs/voice-video-ai"]
+          },
+          {
+            "group": "Enterprises AI",
+            "pages": ["jobs/enterprises-ai"]
           }
         ]
       }
