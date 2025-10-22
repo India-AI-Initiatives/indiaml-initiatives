@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "aspen",
   "name": "India AI Initiatives",
   "colors": {
     "primary": "#796cff",
@@ -9,8 +9,8 @@
   },
   "favicon": "/favicon.svg",
   "logo": {
-    "light": "/logo/dark.svg",
-    "dark": "/logo/light.svg",
+    "light": "India AI Initiatives",
+    "dark": "India AI Initiatives",
     "href": "https://indiaml.com"
   },
   "navigation": {
