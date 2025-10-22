@@ -37,7 +37,70 @@
         ]
       },
       {
-        "tab": "Learnings",
+        "tab": "Startups",
+        "groups": [
+          {
+            "group": "Papers",
+            "pages": ["api-reference/introduction"]
+          },
+          {
+            "group": "Reports",
+            "pages": ["api/overview", "api/authentication", "api/rate-limiting"]
+          },
+          {
+            "group": "Books",
+            "pages": ["api/numbers", "api/calls", "api/messages", "api/webhooks"]
+          },
+          {
+            "group": "Readings",
+            "pages": ["sdk/javascript", "sdk/python", "sdk/java"]
+          }
+        ]
+      },
+      {
+        "tab": "Papers",
+        "groups": [
+          {
+            "group": "Papers",
+            "pages": ["api-reference/introduction"]
+          },
+          {
+            "group": "Reports",
+            "pages": ["api/overview", "api/authentication", "api/rate-limiting"]
+          },
+          {
+            "group": "Books",
+            "pages": ["api/numbers", "api/calls", "api/messages", "api/webhooks"]
+          },
+          {
+            "group": "Readings",
+            "pages": ["sdk/javascript", "sdk/python", "sdk/java"]
+          }
+        ]
+      },
+      {
+        "tab": "Readings",
+        "groups": [
+          {
+            "group": "Papers",
+            "pages": ["api-reference/introduction"]
+          },
+          {
+            "group": "Reports",
+            "pages": ["api/overview", "api/authentication", "api/rate-limiting"]
+          },
+          {
+            "group": "Books",
+            "pages": ["api/numbers", "api/calls", "api/messages", "api/webhooks"]
+          },
+          {
+            "group": "Readings",
+            "pages": ["sdk/javascript", "sdk/python", "sdk/java"]
+          }
+        ]
+      },
+      {
+        "tab": "Podcasts",
         "groups": [
           {
             "group": "Papers",
@@ -79,19 +142,9 @@
     }
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Initiatives",
-        "href": "https://indiaml.com/"
-      },
-      {
-        "label": "Resources",
-        "href": "https://indiaml.com/resources"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "Home",
       "href": "https://indiaml.com"
     }
   },
