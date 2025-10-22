@@ -32,8 +32,8 @@
             "pages": ["startups/deeptech"]
           },
           {
-            "group": "Foundational",
-            "pages": ["startups/foundational"]
+            "group": "Foundational AI",
+            "pages": ["startups/foundational-ai"]
           },
           {
             "group": "Voice/Video AI",
@@ -54,6 +54,35 @@
         ]
       },
       {
+        "tab": "Ideas",
+        "groups": [
+          {
+            "group": "Deeptech",
+            "pages": ["ideas/deeptech"]
+          },
+          {
+            "group": "Foundational AI",
+            "pages": ["ideas/foundational-ai"]
+          },
+          {
+            "group": "Voice/Video AI",
+            "pages": ["ideas/voice-video-ai"]
+          },
+          {
+            "group": "SpaceTech",
+            "pages": ["ideas/space"]
+          },
+          {
+            "group": "Robotics",
+            "pages": ["ideas/robotics"]
+          },
+          {
+            "group": "Enterprises AI",
+            "pages": ["ideas/enterprises-ai"]
+          }
+        ]
+      },
+      {
         "tab": "Papers",
         "groups": [
           {
@@ -61,8 +90,8 @@
             "pages": ["papers/llms"]
           },
           {
-            "group": "Foundational",
-            "pages": ["papers/foundational"]
+            "group": "Foundational AI",
+            "pages": ["papers/foundational-ai"]
           },
           {
             "group": "Voice/Video AI",
