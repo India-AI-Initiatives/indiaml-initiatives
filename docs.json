@@ -1,0 +1,106 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "India AI Initiatives",
+  "colors": {
+    "primary": "#796cff",
+    "light": "#9a90ff",
+    "dark": "#5a4fff"
+  },
+  "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/dark.svg",
+    "dark": "/logo/light.svg",
+    "href": "https://indiaml.com"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Initiatives",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": ["introduction"]
+          },
+          {
+            "group": "Resources",
+            "pages": ["papers"]
+          },
+          {
+            "group": "Guides",
+            "pages": ["guides/integration", "guides/authentication", "guides/webhooks"]
+          },
+          {
+            "group": "Reports",
+            "pages": ["api-reference/introduction"]
+          }
+        ]
+      },
+      {
+        "tab": "Learnings",
+        "groups": [
+          {
+            "group": "Papers",
+            "pages": ["api-reference/introduction"]
+          },
+          {
+            "group": "Reports",
+            "pages": ["api/overview", "api/authentication", "api/rate-limiting"]
+          },
+          {
+            "group": "Books",
+            "pages": ["api/numbers", "api/calls", "api/messages", "api/webhooks"]
+          },
+          {
+            "group": "Readings",
+            "pages": ["sdk/javascript", "sdk/python", "sdk/java"]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "YouTube",
+          "href": "https://www.youtube.com/@india-ai-intiatives",
+          "icon": "youtube"
+        },
+        {
+          "anchor": "GitHub",
+          "href": "https://github.com/India-AI-Initiatives",
+          "icon": "github"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://chat.whatsapp.com/DIYv4oWZpsGHC3NUKfUzvu",
+          "icon": "message-circle"
+        }
+      ]
+    }
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Initiatives",
+        "href": "https://indiaml.com/"
+      },
+      {
+        "label": "Resources",
+        "href": "https://indiaml.com/resources"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://indiaml.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/India-AI-Initiatives",
+      "twitter": "https://x.com/unpod_ai",
+      "youtube": "https://www.youtube.com/@india-ai-intiatives",
+      "whatsapp": "https://chat.whatsapp.com/DIYv4oWZpsGHC3NUKfUzvu"
+    }
+  }
+}
