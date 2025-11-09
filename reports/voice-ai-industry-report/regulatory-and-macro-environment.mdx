@@ -1,0 +1,183 @@
+## 6. Regulatory & Macro Environment
+
+### United States Regulatory Landscape
+
+#### STIR/SHAKEN (Call Authentication)
+
+**What it is:**
+FCC-mandated cryptographic attestation for caller ID, combating robocalls and spoofing.
+
+**Status:**
+- Full implementation deadline: June 30, 2023 (extended from 2021)
+- Non-compliance = $10k-230k per violation per day
+- Required for all VoIP/SIP providers
+
+**Impact on Market:**
+- ✅ Raises barriers to entry (compliance costs $200k-2M per carrier)
+- ✅ Favors established players (Twilio, Bandwidth) with infrastructure
+- ❌ Penalizes small resellers unable to afford attestation
+- 🔄 Creates demand for attestation-as-a-service (Bandwidth leads here)
+
+**Voice AI Implications:**
+Outbound AI agents face higher scrutiny. Legitimate use cases (appointment reminders, payment alerts) now need:
+- Valid business relationship attestation (full "A" level)
+- CRM integration proving prior consent
+- Fallback to SMS if calls blocked
+
+#### TCPA (Telephone Consumer Protection Act)
+
+**What it governs:**
+Automated calling, pre-recorded messages, SMS marketing.
+
+**Key requirements:**
+- Express written consent for auto-dialed calls/texts
+- Do-Not-Call registry compliance
+- Opt-out mechanisms in every interaction
+- 9pm-8am calling restrictions
+
+**Penalties:**
+$500-1,500 per violation; class-action friendly
+
+**Voice AI Considerations:**
+- "Automated call" includes AI agents, even with LLM-generated speech
+- Consent management systems (CRM flags) now table-stakes
+- "Press 1 to opt out" must trigger instant suppression
+- Industry push for AI-specific clarifications (pending FCC rulemaking)
+
+#### State Privacy Laws (CCPA, CPRA, VBPA, etc.)
+
+**Core requirements:**
+- Right to know what data is collected during calls
+- Right to deletion of call recordings/transcripts
+- Opt-out of "sale" (includes 3rd-party analytics vendors)
+- Biometric data consent for voice-printing (Illinois BIPA, Texas CUBI)
+
+**Voice AI Exposure:**
+- LLM training on customer call data = potential "sale" under CCPA
+- Voice cloning/emotion detection = biometric data (requires explicit consent)
+- Retention policies: Many states limit recording storage to 90 days
+
+### India Regulatory Landscape
+
+#### TRAI (Telecom Regulatory Authority)
+
+**Key regulations affecting voice AI:**
+
+1. **DLT (Distributed Ledger Technology) for Spam:**
+   - All commercial calls/SMS must be registered on blockchain
+   - ₹5,000 fine per unregistered interaction
+   - **Impact:** Creates compliance moat for established players (Tanla, Route Mobile); startups struggle with multi-operator integrations
+
+2. **Interconnection charges:**
+   - IUC (Interconnect Usage Charge) reduced to ₹0 in 2020
+   - Shift to "bill and keep" model (sender pays network costs)
+   - **Impact:** Lowers voice termination costs, accelerating VoIP adoption
+
+3. **Numbering plan:**
+   - DID allocation fragmented by 22 telecom circles
+   - Virtual number providers need separate licenses per state
+   - **Impact:** Slows national SIP rollout; benefits incumbents with existing allocations
+
+#### IT Act 2000 & Aadhaar Act
+
+**Data localization:**
+- Payment data must be stored in India (RBI mandate)
+- "Critical personal data" (inc. financial, health) may require localization (pending)
+- **Voice AI Impact:** International SIP trunking okay, but transcripts/analytics data may need in-country hosting
+
+**KYC for voice bots:**
+- Aadhaar-based eKYC required for financial transactions
+- Voice biometrics proposed as authentication method
+- **Opportunity:** Unified voice-ID for banking (Uniphore, Skit pursuing)
+
+#### DoT (Department of Telecom) Compliance
+
+**Lawful Intercept (LI) requirements:**
+- All VoIP/CPaaS providers must build interception capability
+- 24/7 monitoring portal for law enforcement
+- **Cost:** ₹2-5 crore capex per provider; ongoing audit costs
+- **Impact:** High barrier for startups; acquired players (Airtel IQ, Jio CX) absorb into telco infrastructure
+
+### European Union (GDPR, ePrivacy, AI Act)
+
+#### GDPR (Voice-Specific Considerations)
+
+**Consent for recording:**
+- "Explicit, informed, freely given" consent before recording
+- Cannot be bundled with T&Cs (must be separate checkbox)
+- Withdrawal must be as easy as granting
+
+**Right to erasure:**
+- Customers can demand call recording deletion
+- Must honor within 30 days
+- LLM training data = extra complexity (can you "untrain" a model?)
+
+**Data minimization:**
+- Transcript only what's necessary
+- Delete after retention purpose satisfied (e.g., 90 days for QA)
+
+**Voice AI Implications:**
+- Real-time processing (no recording) preferred to minimize liability
+- Anonymization pipelines (stripping PII) before analytics
+- On-prem deployments growing in EU to keep data local
+
+#### EU AI Act (Voice-Specific Classifications)
+
+**High-Risk Systems (includes many voice AI use cases):**
+- Emotion detection in employment/education (banned in some contexts)
+- Biometric categorization (accent, dialect inferencing)
+- **Requirements:** Conformity assessment, human oversight, transparency
+
+**General-Purpose AI (LLMs):**
+- If >10^25 FLOPs (e.g., GPT-4 class): Systemic risk evaluation
+- Voice AI using frontier models = inherits compliance burden
+
+**Voice AI Strategy:**
+- Build "human-in-loop" into high-stakes interactions (insurance claims, loan approvals)
+- Transparency: Disclose when customer is talking to AI (no "passing as human")
+- Document training data provenance (GDPR Article 22: automated decision-making)
+
+### Macro-Economic Factors
+
+#### Labor Cost Arbitrage Erosion
+
+**The Problem:**
+- US contact center agent: $15-25/hour → $3,750-6,250/month loaded
+- India contact center agent: $3-6/hour → $750-1,500/month loaded
+- **Historic arbitrage:** 75-80% savings drove offshoring
+
+**The Shift:**
+- AI agent: $0.15-0.40/minute → $1,800-4,800/month for 24/7 coverage (10k min/month)
+- **New arbitrage:** 70-90% savings vs. India labor
+
+**Implication:**
+India's BPO advantage compressed from 75% to 25-50% vs. AI. Voice AI adoption in India is *faster* than US because wage delta no longer justifies human-only model.
+
+#### Cloud Infrastructure Pricing
+
+**Trend:**
+- Compute costs (GPU inference): -30%/year (NVIDIA volume, competition)
+- Network egress: -15%/year (AWS/GCP pricing pressure)
+- Storage: Effectively $0 marginal cost now
+
+**Impact on Voice AI:**
+- 2022: LLM inference = $0.20/minute → made AI uneconomical
+- 2025: $0.03-0.05/minute → AI now cheaper than human
+- 2027 (projected): $0.01-0.02/minute → AI 100× cheaper than human
+
+**Strategic Implication:**
+Business models based on "AI as cost center" flip to "human agents as luxury." Pricing power shifts to whoever controls *quality* (vertical models, compliance) not infrastructure.
+
+#### 5G & Edge Computing
+
+**Opportunity:**
+- 5G network slicing: Guaranteed &lt;50ms latency for voice packets
+- Edge POPs: Process STT/TTS locally (reduce cloud round-trip)
+
+**India Advantage:**
+- Jio/Airtel 5G rollout fastest globally (400M+ subscribers by 2025)
+- Network-adjacent AI inference (Airtel IQ, Jio CX) = structural latency advantage
+
+**Challenge:**
+- Edge deployment requires CapEx (POPs in 50+ cities)
+- ROI unclear until 5G SA (standalone) core deployed

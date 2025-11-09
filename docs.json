@@ -28,8 +28,23 @@
         "tab": "Reports",
         "groups": [
           {
-            "group": "Voice AI",
-            "pages": ["reports/india-voice-ai-market"]
+            "group": "Voice AI Industry Report",
+            "pages": [
+              "reports/voice-ai-industry-report/introduction",
+              "reports/voice-ai-industry-report/market-definition",
+              "reports/voice-ai-industry-report/market-size",
+              "reports/voice-ai-industry-report/competitive-landscape",
+              "reports/voice-ai-industry-report/business-model-analysis",
+              "reports/voice-ai-industry-report/regulatory-and-macro-environment",
+              "reports/voice-ai-industry-report/financial-benchmarks",
+              "reports/voice-ai-industry-report/trends-and-drivers",
+              "reports/voice-ai-industry-report/investment-thesis",
+              "reports/voice-ai-industry-report/go-to-market-strategy",
+              "reports/voice-ai-industry-report/product-and-technology",
+              "reports/voice-ai-industry-report/risks",
+              "reports/voice-ai-industry-report/appendix",
+              "reports/voice-ai-industry-report/glossary"
+            ]
           }
         ]
       },
