@@ -16,7 +16,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Initiatives",
+        "tab": "Indian AI Initiatives",
         "groups": [
           {
             "group": "Introduction",
@@ -58,6 +58,15 @@
           {
             "group": "Enterprises AI",
             "pages": ["models/enterprises-ai"]
+          }
+        ]
+      },
+      {
+        "tab": "Reports",
+        "groups": [
+          {
+            "group": "Voice AI",
+            "pages": ["reports/voice_ai_cpaas_industry_report"]
           }
         ]
       },
