@@ -28,7 +28,7 @@
         "tab": "Reports",
         "groups": [
           {
-            "group": "VoiceAI",
+            "group": "Voice AI",
             "pages": ["reports/india-voice-ai-market"]
           }
         ]
