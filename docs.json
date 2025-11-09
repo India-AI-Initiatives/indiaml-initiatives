@@ -29,7 +29,7 @@
         "groups": [
           {
             "group": "Voice AI",
-            "pages": ["voice_ai_cpaas_industry_report"]
+            "pages": ["reports/voice_ai_cpaas_industry_report"]
           }
         ]
       },
