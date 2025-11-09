@@ -28,7 +28,7 @@
         "tab": "Reports",
         "groups": [
           {
-            "group": "Voice AI",
+            "group": "VoiceAI",
             "pages": ["reports/voice_ai_cpaas_industry_report"]
           }
         ]
