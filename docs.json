@@ -25,6 +25,15 @@
         ]
       },
       {
+        "tab": "Reports",
+        "groups": [
+          {
+            "group": "Voice AI",
+            "pages": ["voice_ai_cpaas_industry_report"]
+          }
+        ]
+      },
+      {
         "tab": "Models",
         "groups": [
           {
@@ -58,15 +67,6 @@
           {
             "group": "Enterprises AI",
             "pages": ["models/enterprises-ai"]
-          }
-        ]
-      },
-      {
-        "tab": "Reports",
-        "groups": [
-          {
-            "group": "Voice AI",
-            "pages": ["reports/voice_ai_cpaas_industry_report"]
           }
         ]
       },
